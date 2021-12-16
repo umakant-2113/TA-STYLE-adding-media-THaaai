@@ -256,6 +256,7 @@ table {
 
 .section2 {
   margin-top: 4rem;
+  margin-bottom: 0;
 }
 
 .article {
@@ -266,8 +267,6 @@ table {
 
 .section2-article1 {
   flex: 0 1 50%;
-  /* border: 0.12rem solid black; */
-  height: 18rem;
 }
 .article1-p {
   line-height: 1.5;
@@ -288,17 +287,15 @@ table {
 .sequar {
   height: 0.6rem;
   width: 0.6rem;
-  /* border: 0.12rem solid black; */
+
   margin-left: 0.5rem;
   background-color: rgb(216, 216, 216);
 }
 .section2-article2 {
   flex: 0 1 20%;
-  /* border: 0.12rem solid black; */
 }
 .section2-article3 {
   flex: 0 1 20%;
-  /* border: 0.12rem solid black; */
 }
 .section2-box2 {
   display: flex;
@@ -316,6 +313,18 @@ table {
 }
 .section2-article3 img {
   width: 100%;
+}
+
+.time {
+  color: red;
+  font-size: 1rem;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+.time a {
+  text-decoration: none;
+  color: red;
+  margin-right: 0.5rem;
 }
 
 /*  section three */
