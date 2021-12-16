@@ -480,6 +480,7 @@ table {
   width: 95%;
   font-size: 1.125rem;
   color: grey;
+  margin-top: 1rem;
 }
 .form-btn {
   height: 4rem;
@@ -496,6 +497,7 @@ table {
 
 .map-div {
   flex: 0 1 30%;
+  text-align: center;
 }
 .map {
   border-radius: 50%;
@@ -518,7 +520,19 @@ table {
   flex: 0 1 40%;
   /* border: 0.12rem solid whitesmoke; */
 }
-.section6-article1 h2 {
+.list{
+  padding: .25rem;
+}
+.list a{
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+.hading-list{
+  font-size: 2rem;
+}
+.section6-article1 h3 {
   color: whitesmoke;
   font-size: 2rem;
   padding: 1rem 0;
@@ -532,9 +546,10 @@ table {
 .section6-article {
   flex: 0 1 20%;
 }
-.section6-article h2 {
+.section6-article h3 {
   color: whitesmoke;
   padding: 1rem 0;
+  fo
 }
 .section6-article p {
   color: rgb(131, 131, 131);
